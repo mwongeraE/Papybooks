@@ -1,15 +1,11 @@
 package com.example.mwongera.papybooks;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 
 import com.facebook.FacebookException;
-import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.SignInButton;
 
 import barreto.simpleloginlibrary.api_login.FacebookSign;
 import barreto.simpleloginlibrary.api_login.GoogleSign;
@@ -50,4 +46,19 @@ public class MainActivity extends AppCompatActivity implements GoogleSign.InfoLo
         public void loginFailed () {
 
     }
+
+    @Override
+    public void getInfoFace(String id, String nome, String email, String foto) {
+
     }
+
+    @Override
+    public void cancelLoginFace() {
+
+    }
+
+    @Override
+    public void erroLoginFace(FacebookException e) {
+
+    }
+}
