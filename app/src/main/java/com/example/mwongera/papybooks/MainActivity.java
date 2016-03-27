@@ -109,5 +109,3 @@ public class MainActivity extends AppCompatActivity implements GoogleSign.InfoLo
         Log.e("LOG","Erro Login Face "+e.getMessage());
     }
     }
-
-}
