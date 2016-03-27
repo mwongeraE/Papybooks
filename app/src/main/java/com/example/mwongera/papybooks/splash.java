@@ -19,7 +19,7 @@ public class splash extends AppCompatActivity{
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
-                    Intent intent = new Intent(splash.this,intro.class);
+                    Intent intent = new Intent(splash.this, intro.class);
                     startActivity(intent);
                 }
             }
