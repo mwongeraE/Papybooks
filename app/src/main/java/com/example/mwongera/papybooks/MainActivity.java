@@ -17,13 +17,16 @@ import barreto.simpleloginlibrary.api_login.GoogleSign;
 public class MainActivity extends AppCompatActivity implements GoogleSign.InfoLoginGoogleCallback, FacebookSign.InfoLoginFaceCallback {
 
         GoogleSign googleSign;
+        FacebookSign facebookSign;
 
         @Override
         protected void onCreate (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
         googleSign = new GoogleSign(this, this);
+            facebookSign = new FacebookSign(this,this); // before setContentView
+
+            setContentView(R.layout.activity_main);
 
     }
 
