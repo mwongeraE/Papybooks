@@ -23,7 +23,7 @@ public class intro extends BaseAppIntro {
         addSlide(SampleSlide.newInstance(R.layout.intro3));
         addSlide(SampleSlide.newInstance(R.layout.intro4));
 
-        setZoomAnimation();
+        setFlowAnimation();
     }
 
     private void loadMainActivity(){
@@ -55,6 +55,5 @@ public class intro extends BaseAppIntro {
     public void getStarted(View v){
         loadMainActivity();
     }
-}
 
 }

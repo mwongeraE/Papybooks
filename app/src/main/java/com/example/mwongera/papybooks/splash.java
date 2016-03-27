@@ -2,7 +2,6 @@ package com.example.mwongera.papybooks;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 
 public class splash extends AppCompatActivity{
@@ -20,7 +19,7 @@ public class splash extends AppCompatActivity{
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
-                    Intent intent = new Intent(splash.this,Main.class);
+                    Intent intent = new Intent(splash.this,intro.class);
                     startActivity(intent);
                 }
             }
