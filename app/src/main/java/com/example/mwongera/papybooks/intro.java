@@ -5,11 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-
-import com.github.paolorotolo.appintro.AppIntro;
-import com.github.paolorotolo.appintro.AppIntro2;
-import com.github.paolorotolo.appintro.AppIntroFragment;
-
 /**
  * Created by mwongera on 3/27/16.
  */
@@ -25,7 +20,6 @@ public class intro extends BaseAppIntro {
 
         setFlowAnimation();
     }
-
     private void loadMainActivity(){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
