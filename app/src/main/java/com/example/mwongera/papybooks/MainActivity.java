@@ -14,7 +14,7 @@ import com.google.android.gms.common.SignInButton;
 import barreto.simpleloginlibrary.api_login.FacebookSign;
 import barreto.simpleloginlibrary.api_login.GoogleSign;
 
-public class MainActivity extends AppCompatActivity implements GoogleSign.InfoLoginGoogleCallback {
+public class MainActivity extends AppCompatActivity implements GoogleSign.InfoLoginGoogleCallback, FacebookSign.InfoLoginFaceCallback {
 
         GoogleSign googleSign;
 
