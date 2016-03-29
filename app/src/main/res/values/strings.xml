@@ -4,6 +4,7 @@
     <string name="skip">Y U DO DIS TO ME?</string>
     <string name="id_facebook">182982132087492</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="drawer_open">Menu opened</string>
-    <string name="drawer_close">Menu closed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
