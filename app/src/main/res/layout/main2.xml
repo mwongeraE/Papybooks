@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clipChildren="false"
-    tools:context="link.fls.swipestacksample.MainActivity">
+    tools:context="com.example.mwongera.papybooks.Main">
 
     <Button
         android:id="@+id/buttonSwipeLeft"
