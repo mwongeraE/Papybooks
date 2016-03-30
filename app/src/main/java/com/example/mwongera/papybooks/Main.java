@@ -34,7 +34,7 @@ public class Main extends AppCompatActivity implements SwipeStack.SwipeStackList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main2);
 
         mSwipeStack = (SwipeStack) findViewById(R.id.swipeStack);
         mButtonLeft = (Button) findViewById(R.id.buttonSwipeLeft);

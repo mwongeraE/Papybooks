@@ -18,4 +18,6 @@
     <string name="stack_reset">Stack reset!</string>
     <string name="stack_empty">Card stack empty!</string>
     <string name="github">View on GitHub</string>
+    <string name="drawer_open">20dp</string>
+    <string name="drawer_close">20dp</string>
 </resources>

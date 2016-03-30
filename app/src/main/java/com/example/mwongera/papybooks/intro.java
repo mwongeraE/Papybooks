@@ -21,7 +21,7 @@ public class intro extends BaseAppIntro {
         setFlowAnimation();
     }
     private void loadMainActivity(){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, Main.class);
         startActivity(intent);
     }
 
