@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.mwongera.papybooks"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -27,6 +27,7 @@ dependencies {
     compile 'barreto.simplelogin:barreto.simplelogin:1.0'
     compile 'com.google.android.gms:play-services-auth:8.4.0'
     compile 'com.google.android.gms:play-services-measurement:8.4.0'
+    compile 'link.fls:swipestack:0.3.0'
 }
 repositories {
     mavenCentral()
